@@ -6,7 +6,7 @@ int main(){
 
  int freq[256] ={0};
 
- for(int i=0;i<s.length()-1;i++){
+ for(int i=0;i<s.length();i++){
   freq[s[i]]++;
  }
 
