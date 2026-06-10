@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+    int arr[] = {5,2,8,1,4};
+
+    int n = 5;
+
+    sort(arr, arr+n);
+
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+}
